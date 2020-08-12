@@ -1,0 +1,277 @@
+COURSE DETAILS
+
+	How DevOps Work & What is DevOps
+	Scope of DevOps
+	Dev and Ops activities
+	Tools to achive DevOps process
+	Roles and Responsibilities of DevOps engineer
+	Overview about
+    	* SAAS
+    	* IAAS
+    	* PAAS
+	DevOps on cloud computing and virtualization
+	Containership tool in DevOps model
+	Career on DevOps
+	Waterwall, Agile, DevOps
+
+*************RHEL*************
+
+Linux - 
+	Introduction to Linux
+	Linux Lab Setup (RHEL 8 Installation)
+	Accessing Linux Server GUI & CLI
+	Getting Started with Linux Basic Commands
+	Few More Linux Basic commands
+	Standard Input, Output and Error redirection
+	Grep Command with regular expressions
+	tar & zip commands to Archive and compress, File & directories
+	vi Editor Modes
+	Getting help from Command Line User Interface
+	SSH Server & Client Installation and configuration
+	Reset Linux root user password (Gain Access to system)
+	SCP - Transfer Data from one server to another server securely
+	Listing and Managing Linux processes
+	Creating standard Linux partitions
+	Deleting standard Linux partitions
+	Creating PVs, VGs and LVM
+	Extend Logical Volumes non-destructively
+	Reduce LVM size - lvreduce
+	Swap Memory
+	Creating Users and Groups
+	Modify user properties | Password age
+	Deleting users and groups
+	Files & directory permissions
+	Access control list - ACL
+	Special Linux file permissions Set-GID, Set-UID, Sticky Bit
+	Sudo access - sudoers policy
+	Linux Networking | Assign Static IP
+	Firewall Rules | firewalld | Firewall-cmd
+	SELinux to enforcing policies
+	YUM Repository | AppStream | BaseOS
+
+Linux Shell Scripting -
+	Scripting overview
+	Introduction to shell Scripting
+	Writing some .sh files with different examples
+	Use cases 
+	Using cronjobs with Shell
+
+*************Cloud*************
+
+AWS (Amazon Web Services) - cloud computing
+       Introduction to AWS & cloud computing
+       Creating AWS account
+       EC2- Elastic Compute Cloud
+       S3-Simple storage service
+       EFS-Elastic File System
+       EBS-Elastic Block Storage
+       VPC-Virtual Private Cloud
+       ELB-Elastic Load Balancer
+       AUTOSCALING
+       CLOUDWATCH
+       IAM-Identity & Access Management
+       AWS-CLI Command Line Interface
+       AWS-GUI Graphical User Interface
+       RDS- Relational Database Service like Oracle, MySQL
+       SNS- Simple Notification Service
+       AWS LAMBDA
+       ROUTE53
+       AMI-Amazon Machine Image
+
+AZURE -
+        Introduction to Microsoft Azure and Its Services
+        Azure Virtual Machines and Networking
+        Azure VMSS and Availability Zones
+        Azure App Services and Its Features
+        Advanced Azure Hybrid Connectivity and Site Recovery
+        Azure Storage Solution and Design Patterns
+        Azure Kubernetes Service
+        Azure Active Directory and Role Based Access Control
+        Azure Messaging Service (Events, Hubs, Queue and Bus)
+        Azure Monitoring and Insights Service
+
+
+GOOGLE CLOUD -
+        GCP Networking Services
+        GCP IAM and Security Services
+        GCP Compute Services
+        GCP Storage & Database Services
+        Containers
+        Cloud Dataflow for Data Processing
+        GCP APIs & Development Services
+	Designing & Implementing GCP Migration
+
+*************DevOps*************
+
+GIT - 
+	version control system
+	What is version control
+	What is git and its history
+	Install git and configuration settings
+	Setting up repository
+	Working with local repository
+	Working with remote repository like github/gitlab
+	Branching, merging, rebasing with git
+	Revert the git changes/commits
+	Configurations with eclipse and gerrit
+
+
+GitHub - 
+	web-based hosting service for version control
+	Creating user
+	API
+	Use Cases
+
+
+Maven - 
+	Build automation tool
+	Introduction to maven fundamentals
+	Maven structure
+	Maven dependencies
+	Maven repositories
+	Maven plugins
+	Pom.xml
+	Goals
+	Local/remote repo structure
+	Compiler plugins
+	Configuring managed servers
+	Configuring node managers
+	Viewing and managing logs
+	Auto deployment and manual deployment concepts
+	Creating & staging deployment plan
+	Cluster architecture and configuration
+	Security concepts and configurations
+	Performance tuning
+
+
+SonarQube - 
+	continuous inspection of code quality
+	Installation & configuration
+	Display code analysis results in sonar
+	Customize dashboard
+	Sonar widgets
+	Plugin configurations
+	Quality gates & Profiles
+
+
+JENKINS - 
+	CICD
+	Introduction Jenkins
+       	Installation and Configuration of Jenkins
+       	Setup Build Jobs
+       	Unit Testing
+       	Automated Testing
+       	Notifications
+       	Reporting
+       	Code Analysis
+       	Pipeline
+       	HA-Clustering
+       	Jenkins Backup and restore
+	Maven Setup
+	Sonarcube
+    	Managing Plugins
+       	Tomcat setup
+       	Git setup
+       	Cronjobs
+       	Schedule jobs
+       	Managing Master & slave configuration
+       	Securing Jenkins
+       	Plugin management
+       	Different types of jobs configuration
+
+
+JFrog - 
+	Artifactoty Management
+	Installation and Configuration of Jfrog
+	Use Cases
+
+
+JUnit - 
+	Unit Test
+	Unit testing
+	Use Cases with Jenkins Jobs
+
+
+Ansible - 
+	Configuration management
+	Installation and Configuration of Ansible
+	Writing PlayBooks
+	Understanding Roles
+
+Ansible Tower(Optional) -
+	Installation and configuration
+	GUI 
+	API
+	USE Cases	
+	Writing Playbooks in Ansible Tower
+
+Puppet - 
+	Configuration management
+	Installation of puppet
+	Configuration of Puppet
+	writing puppet modules and manifests
+
+
+DOCKER - 
+	Containerization
+	Introduction to Docker
+	Container Operations
+	Images Operations
+        Docker Images
+        Docker Containers
+        Docker file
+        Docker Compose
+        Docker SSH
+        Docker Networking
+        Docker Swarm - Orchestration & Scheduling
+
+
+Kubernetes - 
+	Container-orchestration
+	Orchestration & Scheduling
+	Installation and Configuration of Kubernetes
+	Creating Dashboards
+	Working With GUI
+	Creating or managing Containers ( Docker )
+	Auto scaling - Scaling up and down
+	Kubernetes Core Concepts and Networking
+	Kubernetes Services and Scheduling
+	Kubernetes Controllers
+	Persistent Storage in Kubernetes
+	Securing the Cluster
+	Logging and Monitoring the Cluster
+	Troubleshooting the Cluster
+
+
+Terraform -
+	Infrastructure as a Code - Automation Tool
+	Installation of Terraform
+	Configuration of Terraform
+	Writing Different code
+	Plan, Validate, Apply, Destroy Use cases 
+	Creating and Destroying the Infrastructure 
+
+Nginx -
+	Nginx is a web server which can also be used as a reverse proxy, load balancer, mail proxy      and HTTP cache 
+	Installation and Configuration of Nginx
+	Configuring Nginx for Reverse Proxy
+	Configuring Nginx for Load balancing
+
+
+Nagios -
+	Continuous Monitoring
+	Installation and configuration of Nagios
+	Creating Jobs and Monitoring through GUI
+	Different Usage of Monitoring 
+	Installing NRPE for Client Servers
+	Configuring NRPE Client
+
+
+************* We Also Support *************
+	Certifications
+	Proxy
+	Job Support
+	Resume Preparations
+	Interview Questions
+
+
